@@ -1072,7 +1072,7 @@
 		"replaceSpace": "_",
 		"color": "transparent",
 		"sideSelections": true,
-		"isDirty": true,
+		"isDirty": false,
 		"storedin": {
 			"major": 6,
 			"minor": 4,
@@ -1089,7 +1089,7 @@
 		"def_validationAction": "na",
 		"def_collation": "",
 		"def_others": "",
-		"lastSaved": "Fri Jun 23 2023 09:40:10 GMT+0200 (Central European Summer Time)"
+		"lastSaved": "Fri Jun 23 2023 11:59:57 GMT+0200 (Central European Summer Time)"
 	},
 	"otherObjects": {},
 	"diagrams": {
