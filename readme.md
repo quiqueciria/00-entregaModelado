@@ -4,4 +4,6 @@
 
   - [Diagrama en .pdf](https://github.com/quiqueciria/00-entregaModelado/blob/main/00-modelado-basico/diagrama.pdf)
 
-- Modelado opcional (in progress)
+- [Modelado opcional](https://github.com/quiqueciria/00-entregaModelado/tree/main/01-modelado-opcional)
+
+  - [Diagrama en .pdf](https://github.com/quiqueciria/00-entregaModelado/blob/main/01-modelado-opcional/diagramaOpcional.pdf)
