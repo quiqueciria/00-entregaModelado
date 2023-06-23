@@ -31,6 +31,20 @@
 					"list": true,
 					"enum": "",
 					"validate": ""
+				},
+				{
+					"id": "7ef3c244-8e46-479c-8640-8112140f57a1",
+					"name": "esPublico",
+					"datatype": "bool",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
 				}
 			],
 			"relations": [],
@@ -191,142 +205,6 @@
 			"keys": [
 				{
 					"id": "3d38d0ae-444e-4261-9a52-54e2cd263c63",
-					"name": "Primary key",
-					"isPk": true,
-					"cols": []
-				}
-			],
-			"indexes": [],
-			"embeddable": true,
-			"generate": true,
-			"generateCustomCode": true
-		},
-		"9e6a8219-5eb7-4110-b7b7-ff59f9166c01": {
-			"id": "9e6a8219-5eb7-4110-b7b7-ff59f9166c01",
-			"visible": true,
-			"name": "videos",
-			"desc": "",
-			"estimatedSize": "",
-			"cols": [
-				{
-					"id": "998eaf1c-19bd-4dfe-ba1d-096d90877e0c",
-					"name": "_id",
-					"datatype": "objectId",
-					"param": "",
-					"pk": true,
-					"nn": true,
-					"comment": "",
-					"defaultvalue": "",
-					"data": ""
-				},
-				{
-					"id": "3e355472-4d94-443c-ac56-fb48a6905205",
-					"name": "tematicas",
-					"datatype": "899d94c3-7c8d-4158-a286-b3a26e9736b9",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": true,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "53ab25fe-9a3c-4c2e-89ac-150aa5fc92f5",
-					"name": "autor",
-					"datatype": "string",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": false,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "687c7d9c-dd00-4bf8-9083-c55255cd61f8",
-					"name": "curso",
-					"datatype": "string",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": false,
-					"enum": "",
-					"validate": ""
-				}
-			],
-			"relations": [],
-			"lines": [],
-			"keys": [
-				{
-					"id": "0d229646-0bc8-408a-b297-5ca594d3e2fb",
-					"name": "Primary key",
-					"isPk": true,
-					"cols": [
-						{
-							"id": "d0445f00-bfac-49bc-b923-2008ca5680a2",
-							"colid": "998eaf1c-19bd-4dfe-ba1d-096d90877e0c"
-						}
-					]
-				}
-			],
-			"indexes": [],
-			"embeddable": false,
-			"generate": true,
-			"generateCustomCode": true,
-			"validationLevel": "na",
-			"validationAction": "na",
-			"collation": "",
-			"others": ""
-		},
-		"899d94c3-7c8d-4158-a286-b3a26e9736b9": {
-			"id": "899d94c3-7c8d-4158-a286-b3a26e9736b9",
-			"visible": false,
-			"name": "object",
-			"desc": "",
-			"estimatedSize": "",
-			"cols": [
-				{
-					"id": "1e098425-790b-4810-a786-8ca7cd9d329b",
-					"name": "idTematica",
-					"datatype": "string",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": false,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "c78d44d7-f15d-4498-8193-e6bc0136ce6d",
-					"name": "nombreTematica",
-					"datatype": "string",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": false,
-					"enum": "",
-					"validate": ""
-				}
-			],
-			"relations": [],
-			"lines": [],
-			"keys": [
-				{
-					"id": "97198051-0f38-4cd5-b364-b284ab200288",
 					"name": "Primary key",
 					"isPk": true,
 					"cols": []
@@ -600,22 +478,8 @@
 				},
 				{
 					"id": "a5c3d9ed-4914-4aaa-b42f-6c466da58132",
-					"name": "frontEnd",
+					"name": "areaDestacada",
 					"datatype": "61a027ed-9edd-4ee7-9691-42febe21c2f6",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": true,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "7c95bde6-1d5b-4e05-b1a8-62b5b8f91eef",
-					"name": "devops",
-					"datatype": "a9b0e1e1-6ec7-4ff3-be42-7165820ad0e6",
 					"param": "",
 					"pk": false,
 					"nn": false,
@@ -818,7 +682,7 @@
 				},
 				{
 					"id": "df1eeb6d-c9ad-4e5c-8f15-935f8b64c061",
-					"name": "descripcio",
+					"name": "descripcion",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -933,15 +797,15 @@
 			"generate": true,
 			"generateCustomCode": true
 		},
-		"bde32447-317f-419c-9459-bb82dea14aba": {
-			"id": "bde32447-317f-419c-9459-bb82dea14aba",
+		"e8b4c8fc-43d6-4c42-8228-8de2070d1e48": {
+			"id": "e8b4c8fc-43d6-4c42-8228-8de2070d1e48",
 			"visible": true,
-			"name": "tematicas",
+			"name": "usuarios",
 			"desc": "",
 			"estimatedSize": "",
 			"cols": [
 				{
-					"id": "dcb2c4d8-ca22-4aab-9fd2-429fd7eda305",
+					"id": "ce51eef8-4ce3-4122-9d53-f9cc556f9001",
 					"name": "_id",
 					"datatype": "objectId",
 					"param": "",
@@ -952,9 +816,80 @@
 					"data": ""
 				},
 				{
-					"id": "b7818cd9-ac42-48fa-a384-29b209a49186",
-					"name": "videos",
-					"datatype": "5a1f9006-be5c-45fc-ae22-2384d43e97d2",
+					"id": "bab8914f-b7b9-4a67-bdaf-0d29b780ed82",
+					"name": "nombre",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "631c9694-df0c-4dff-96d5-9293164c0cd5",
+					"name": "esDePago",
+					"datatype": "bool",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "463ed874-ad2f-4e19-a511-2e4f5acd71fd",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "9f511127-9672-44c0-8586-6c8662917d1b",
+							"colid": "ce51eef8-4ce3-4122-9d53-f9cc556f9001"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"6fbe3fb9-d8e5-4817-87ac-8f1b638f7547": {
+			"id": "6fbe3fb9-d8e5-4817-87ac-8f1b638f7547",
+			"visible": true,
+			"name": "tematicas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "61c77ef9-4367-476a-8b9b-bd6abcf4448f",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "ea74577a-aa3c-485d-9af7-1fa76794b376",
+					"name": "nombreTematica",
+					"datatype": "0d911a15-e120-45e5-9323-b2ff4cae59cc",
 					"param": "",
 					"pk": false,
 					"nn": false,
@@ -970,13 +905,13 @@
 			"lines": [],
 			"keys": [
 				{
-					"id": "4339ab77-1258-4fd0-9cf6-b697a9e9cc54",
+					"id": "f0d168a9-903f-48b2-b94f-54b65ac0e05d",
 					"name": "Primary key",
 					"isPk": true,
 					"cols": [
 						{
-							"id": "c1cc1f5e-9b5d-431e-854e-93dcda3a52ab",
-							"colid": "dcb2c4d8-ca22-4aab-9fd2-429fd7eda305"
+							"id": "51808655-0e40-436e-ad0b-c29081f48c5e",
+							"colid": "61c77ef9-4367-476a-8b9b-bd6abcf4448f"
 						}
 					]
 				}
@@ -990,29 +925,15 @@
 			"collation": "",
 			"others": ""
 		},
-		"5a1f9006-be5c-45fc-ae22-2384d43e97d2": {
-			"id": "5a1f9006-be5c-45fc-ae22-2384d43e97d2",
+		"0d911a15-e120-45e5-9323-b2ff4cae59cc": {
+			"id": "0d911a15-e120-45e5-9323-b2ff4cae59cc",
 			"visible": false,
 			"name": "object",
 			"desc": "",
 			"estimatedSize": "",
 			"cols": [
 				{
-					"id": "7f70e042-2804-4dc1-a01f-d642d338c19f",
-					"name": "id",
-					"datatype": "string",
-					"param": "",
-					"pk": false,
-					"nn": false,
-					"comment": "",
-					"defaultvalue": "",
-					"data": "",
-					"list": false,
-					"enum": "",
-					"validate": ""
-				},
-				{
-					"id": "04b1e0d0-2885-4fa5-9d11-a857895bedaa",
+					"id": "8fe48aea-7dbc-44df-9ed4-16a920728d38",
 					"name": "nombre",
 					"datatype": "string",
 					"param": "",
@@ -1026,8 +947,73 @@
 					"validate": ""
 				},
 				{
-					"id": "61fc0434-9ccf-4144-b9a2-32daf869f629",
+					"id": "e400a98f-4a23-47c8-82d2-582bd1938c9c",
 					"name": "descripcion",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b89b3556-1bba-4d46-b0f6-68dcf8077b49",
+					"name": "idTecnologia",
+					"datatype": "f7bb0ec9-0123-4533-b891-4300749df6a4",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "8b9a1298-1c86-4f9e-8aa7-e05eae39fe1a",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"f7bb0ec9-0123-4533-b891-4300749df6a4": {
+			"id": "f7bb0ec9-0123-4533-b891-4300749df6a4",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "cc58444f-0530-42a9-a256-ac6c9e6b1d5b",
+					"name": "nombre",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8eba22f4-7631-4279-a6f9-efea227409b1",
+					"name": "videos",
 					"datatype": "string",
 					"param": "",
 					"pk": false,
@@ -1044,7 +1030,157 @@
 			"lines": [],
 			"keys": [
 				{
-					"id": "d4eb9e80-7e65-4517-ac9d-50f5ebfbd503",
+					"id": "5cf1d277-b362-45db-a15d-d53f1a899d7e",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"9e6a8219-5eb7-4110-b7b7-ff59f9166c01": {
+			"id": "9e6a8219-5eb7-4110-b7b7-ff59f9166c01",
+			"visible": true,
+			"name": "videos",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "998eaf1c-19bd-4dfe-ba1d-096d90877e0c",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "3e355472-4d94-443c-ac56-fb48a6905205",
+					"name": "tematicas",
+					"datatype": "899d94c3-7c8d-4158-a286-b3a26e9736b9",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "53ab25fe-9a3c-4c2e-89ac-150aa5fc92f5",
+					"name": "autor",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "687c7d9c-dd00-4bf8-9083-c55255cd61f8",
+					"name": "curso",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "19b0541e-d11d-4a1d-bbaa-c9ab1ddcc385",
+					"name": "esPublico",
+					"datatype": "bool",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "0d229646-0bc8-408a-b297-5ca594d3e2fb",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "d0445f00-bfac-49bc-b923-2008ca5680a2",
+							"colid": "998eaf1c-19bd-4dfe-ba1d-096d90877e0c"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"899d94c3-7c8d-4158-a286-b3a26e9736b9": {
+			"id": "899d94c3-7c8d-4158-a286-b3a26e9736b9",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "1e098425-790b-4810-a786-8ca7cd9d329b",
+					"name": "idTematica",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c78d44d7-f15d-4498-8193-e6bc0136ce6d",
+					"name": "nombreTematica",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "97198051-0f38-4cd5-b364-b284ab200288",
 					"name": "Primary key",
 					"isPk": true,
 					"cols": []
@@ -1072,7 +1208,7 @@
 		"replaceSpace": "_",
 		"color": "transparent",
 		"sideSelections": true,
-		"isDirty": false,
+		"isDirty": true,
 		"storedin": {
 			"major": 6,
 			"minor": 4,
@@ -1089,7 +1225,7 @@
 		"def_validationAction": "na",
 		"def_collation": "",
 		"def_others": "",
-		"lastSaved": "Fri Jun 23 2023 11:59:57 GMT+0200 (Central European Summer Time)"
+		"lastSaved": "Fri Jun 23 2023 12:00:03 GMT+0200 (Central European Summer Time)"
 	},
 	"otherObjects": {},
 	"diagrams": {
@@ -1099,7 +1235,7 @@
 			"id": "11fcdf37-1462-44c1-9a63-fd0ed75ce0fa",
 			"keysgraphics": true,
 			"linegraphics": "detailed",
-			"zoom": 0.9,
+			"zoom": 1,
 			"background": "transparent",
 			"lineColor": "transparent",
 			"isOpen": true,
@@ -1107,13 +1243,13 @@
 			"diagramItems": {
 				"24219b1e-021a-4d7a-b181-f602aa77c448": {
 					"referencedItemId": "24219b1e-021a-4d7a-b181-f602aa77c448",
-					"x": 85,
-					"y": 423,
-					"gHeight": 188,
-					"gWidth": 217,
+					"x": 82,
+					"y": 335,
+					"gHeight": 208,
+					"gWidth": 204,
 					"color": "#ffffff",
 					"background": "#03a9f4",
-					"resized": false,
+					"resized": true,
 					"autoExpand": true
 				},
 				"908e5fee-0564-4353-9aff-8c479f1136c4": {
@@ -1138,37 +1274,15 @@
 					"resized": false,
 					"autoExpand": true
 				},
-				"9e6a8219-5eb7-4110-b7b7-ff59f9166c01": {
-					"referencedItemId": "9e6a8219-5eb7-4110-b7b7-ff59f9166c01",
-					"x": 84,
-					"y": 631,
-					"gHeight": 135,
-					"gWidth": 220,
-					"color": "#ffffff",
-					"background": "#03a9f4",
-					"resized": false,
-					"autoExpand": true
-				},
-				"899d94c3-7c8d-4158-a286-b3a26e9736b9": {
-					"referencedItemId": "899d94c3-7c8d-4158-a286-b3a26e9736b9",
-					"x": 400,
-					"y": 40,
-					"gHeight": 60,
-					"gWidth": 160,
-					"color": "#ffffff",
-					"background": "#8bc34a",
-					"resized": false,
-					"autoExpand": true
-				},
 				"dd737d53-0b9a-4a8f-9d8d-599982439673": {
 					"referencedItemId": "dd737d53-0b9a-4a8f-9d8d-599982439673",
-					"x": 84,
-					"y": 1016,
-					"gHeight": 189,
-					"gWidth": 203,
+					"x": 91,
+					"y": 947,
+					"gHeight": 190,
+					"gWidth": 201,
 					"color": "#ffffff",
 					"background": "#03a9f4",
-					"resized": false,
+					"resized": true,
 					"autoExpand": true
 				},
 				"cc76fd44-2d83-4cd6-a99b-a967a13b8d5b": {
@@ -1195,13 +1309,13 @@
 				},
 				"7eba4000-cfd1-4e03-ad3d-f0804476315b": {
 					"referencedItemId": "7eba4000-cfd1-4e03-ad3d-f0804476315b",
-					"x": 84,
-					"y": 54,
-					"gHeight": 351,
-					"gWidth": 238,
+					"x": 82,
+					"y": 44,
+					"gHeight": 280,
+					"gWidth": 194,
 					"color": "#ffffff",
 					"background": "#03a9f4",
-					"resized": false,
+					"resized": true,
 					"autoExpand": true
 				},
 				"9df17f0b-49ac-4dda-b455-02647c948833": {
@@ -1259,20 +1373,64 @@
 					"resized": false,
 					"autoExpand": true
 				},
-				"bde32447-317f-419c-9459-bb82dea14aba": {
-					"referencedItemId": "bde32447-317f-419c-9459-bb82dea14aba",
-					"x": 86,
-					"y": 829,
-					"gHeight": 117,
-					"gWidth": 202,
+				"e8b4c8fc-43d6-4c42-8228-8de2070d1e48": {
+					"referencedItemId": "e8b4c8fc-43d6-4c42-8228-8de2070d1e48",
+					"x": 541,
+					"y": 110,
+					"gHeight": 81,
+					"gWidth": 196,
 					"color": "#ffffff",
 					"background": "#03a9f4",
 					"resized": false,
 					"autoExpand": true
 				},
-				"5a1f9006-be5c-45fc-ae22-2384d43e97d2": {
-					"referencedItemId": "5a1f9006-be5c-45fc-ae22-2384d43e97d2",
-					"x": 1000,
+				"6fbe3fb9-d8e5-4817-87ac-8f1b638f7547": {
+					"referencedItemId": "6fbe3fb9-d8e5-4817-87ac-8f1b638f7547",
+					"x": 91,
+					"y": 752,
+					"gHeight": 152,
+					"gWidth": 261,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"0d911a15-e120-45e5-9323-b2ff4cae59cc": {
+					"referencedItemId": "0d911a15-e120-45e5-9323-b2ff4cae59cc",
+					"x": 1200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"f7bb0ec9-0123-4533-b891-4300749df6a4": {
+					"referencedItemId": "f7bb0ec9-0123-4533-b891-4300749df6a4",
+					"x": 1200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"9e6a8219-5eb7-4110-b7b7-ff59f9166c01": {
+					"referencedItemId": "9e6a8219-5eb7-4110-b7b7-ff59f9166c01",
+					"x": 89,
+					"y": 568,
+					"gHeight": 154,
+					"gWidth": 200,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": true,
+					"autoExpand": true
+				},
+				"899d94c3-7c8d-4158-a286-b3a26e9736b9": {
+					"referencedItemId": "899d94c3-7c8d-4158-a286-b3a26e9736b9",
+					"x": 400,
 					"y": 40,
 					"gHeight": 60,
 					"gWidth": 160,
